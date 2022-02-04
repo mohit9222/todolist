@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mohit9222.github.io/To-Do-List-App/",
+  "homepage": "https://mohit9222.github.io/todolist/",
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
